@@ -1,0 +1,18 @@
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+.envrc
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# Chef Kitchen
+.kitchen/
+.kitchen.local.yml
