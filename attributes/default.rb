@@ -7,8 +7,7 @@ default['cwmon']['group'] = 'cwmon'
 default['cwmon']['base'] = '/opt/aws/cloudwatch'
 default['cwmon']['version'] = '1.2.1'
 default['cwmon']['interval'] = 5
-default['cwmon']['options'] = %w[--aggregated
-                                 --auto-scaling
+default['cwmon']['options'] = %w[--auto-scaling
                                  --disk-space-avail
                                  --disk-space-used
                                  --disk-space-util
