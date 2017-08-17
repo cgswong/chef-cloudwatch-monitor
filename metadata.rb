@@ -4,7 +4,7 @@ maintainer_email 'cgs.wong@gmail.com'
 license 'Apache-2.0'
 description 'Install and configure AWS CloudWatch Logs custom metrics for monitoring EC2 instances and sending the data to AWS CloudWatch.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version "1.0.1"
+version "1.0.0"
 
 recipe 'cloudwatch-monitor', 'Includes the service recipe by default.'
 recipe 'cloudwatch-monitor::install', 'Install AWS CloudWatch custom metrics.'
